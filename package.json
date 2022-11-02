@@ -1,14 +1,15 @@
 {
-  "version": "1.0.69",
   "name": "calendapi",
+  "version": "1.0.69",
+  "module": "src/index.js",
   "devDependencies": {
     "bun-types": "latest"
-  },
-  "dependencies": {
-    "hono": "^2.2.5"
   },
   "scripts": {
     "start": "bun run src/index.ts"
   },
-  "module": "src/index.js"
+  "dependencies": {
+    "dayjs": "^1.11.6",
+    "hono": "^2.3.1"
+  }
 }
